@@ -3,17 +3,17 @@ greeting : "Hi there for accounting"
 ---
 
 spring:
-  profile : stage
+  profiles : stage
   greeting : "Hi there for accounting stage server"
 
 ---
 
 spring:
-  profile : dev
+  profiles : dev
   greeting : "Hi there for accounting dev server"
 
 ---
 
 spring:
-  profile : local
+  profiles : local
   greeting : "Hi there for accounting local server"
