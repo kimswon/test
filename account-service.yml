@@ -1,1 +1,13 @@
 greeting : "Hi there for accounting"
+
+spring:
+  profile : stage
+  greeting : "Hi there for accounting stage server"
+  
+spring:
+  profile : dev
+  greeting : "Hi there for accounting dev server"
+
+spring:
+  profile : local
+  greeting : "Hi there for accounting local server"
